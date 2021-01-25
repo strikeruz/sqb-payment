@@ -1,0 +1,8 @@
+import {Wrapper} from '@/views/wrapper'
+
+export class P2PMobile {
+	constructor (configs) {
+		console.log(configs)
+		new Wrapper(configs)
+	}
+}
