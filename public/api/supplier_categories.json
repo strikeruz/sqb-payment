@@ -1,0 +1,139 @@
+{
+    "success": true,
+    "data": [
+        {
+            "id": 1,
+            "logo": "https://mobile.sqb.uz/images/upayc_1.png",
+            "title": "Uyali aloqa operatorlari",
+            "order": 1,
+            "count": 78
+        },
+        {
+            "id": 2,
+            "logo": "https://mobile.sqb.uz/images/upayc_3.png",
+            "title": "Kommunal xizmatlar",
+            "order": 2,
+            "count": 13
+        },
+        {
+            "id": 3,
+            "logo": "https://mobile.sqb.uz/images/upayc_2.png",
+            "title": "Internet provayderlari",
+            "order": 3,
+            "count": 31
+        },
+        {
+            "id": 4,
+            "logo": "https://mobile.sqb.uz/images/upayc_10.png",
+            "title": "Davlat xizmatlari",
+            "order": 4,
+            "count": 21
+        },
+        {
+            "id": 5,
+            "logo": "https://mobile.sqb.uz/images/upayc_5.png",
+            "title": "Televideniya xizmatlari",
+            "order": 5,
+            "count": 15
+        },
+        {
+            "id": 6,
+            "logo": "https://mobile.sqb.uz/images/upayc_8.png",
+            "title": "Telefoniya",
+            "order": 6,
+            "count": 7
+        },
+        {
+            "id": 7,
+            "logo": "https://mobile.sqb.uz/images/upayc_7.png",
+            "title": "Internet resurslar",
+            "order": 7,
+            "count": 37
+        },
+        {
+            "id": 8,
+            "logo": "https://mobile.sqb.uz/images/upayc_9.png",
+            "title": "Soliq to'lovlari",
+            "order": 8,
+            "count": 2
+        },
+        {
+            "id": 9,
+            "logo": "https://mobile.sqb.uz/images/upayc_27.png",
+            "title": "Transport",
+            "order": 8,
+            "count": 5
+        },
+        {
+            "id": 10,
+            "logo": "https://mobile.sqb.uz/images/upayc_6.png",
+            "title": "Sug'urta",
+            "order": 9,
+            "count": 7
+        },
+        {
+            "id": 11,
+            "logo": "https://mobile.sqb.uz/images/upayc_13.png",
+            "title": "Kreditlarni so'ndirish",
+            "order": 10,
+            "count": 96
+        },
+        {
+            "id": 13,
+            "logo": "https://mobile.sqb.uz/images/upayc_18.png",
+            "title": "Dam olish markazlari",
+            "order": 13,
+            "count": 3
+        },
+        {
+            "id": 14,
+            "logo": "https://mobile.sqb.uz/images/upayc_19.png",
+            "title": "Ta'lim",
+            "order": 14,
+            "count": 16
+        },
+        {
+            "id": 15,
+            "logo": "https://mobile.sqb.uz/images/upayc_20.png",
+            "title": "Xayriya",
+            "order": 15,
+            "count": 6
+        },
+        {
+            "id": 16,
+            "logo": "https://mobile.sqb.uz/images/upayc_21.png",
+            "title": "Elektron Hamyonlar ",
+            "order": 16,
+            "count": 4
+        },
+        {
+            "id": 18,
+            "logo": "https://mobile.sqb.uz/images/upayc_24.png",
+            "title": "O'yinlar va ijtimoiy tarmoq",
+            "order": 18,
+            "count": 7
+        },
+        {
+            "id": 19,
+            "logo": "https://mobile.sqb.uz/images/upayc_25.png",
+            "title": "Hosting xizmatlari",
+            "order": 19,
+            "count": 5
+        },
+        {
+            "id": 22,
+            "logo": "https://mobile.sqb.uz/images/qiwi.png",
+            "title": "Qiwi to'lovlari",
+            "order": 22,
+            "count": 44
+        },
+        {
+            "id": 23,
+            "logo": "https://mobile.sqb.uz/images/qiwi.png",
+            "title": "Переводы на карты МИР/VISA/MasterCard",
+            "order": 23,
+            "count": 2
+        }
+    ],
+    "error": {}
+}
