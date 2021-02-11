@@ -444,6 +444,12 @@ body {
   -ms-flex-align: stretch;
   align-items: stretch;
   width: 100%;
+
+ 
+}
+
+.form-control.invalid, .virtualReception__select.invalid {
+  border-color: red;
 }
 
 .custom-p {
