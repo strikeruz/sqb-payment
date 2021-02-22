@@ -19,7 +19,7 @@ export const joydaApiInstance = axios.create({
   headers: {
     'Content-Type': 'application/json',
     'X-Mobile-AppVersion': 1,
-    'X-Mobile-Lang': 'ru',
+    'X-Mobile-Lang': typeof BX === 'undefined' ? 'ru' : BX.message.LANGUAGE_ID,
     'X-Mobile-Model': getBrowserName(),
     'X-Mobile-OSVersion': 'web',
     'X-Mobile-Type': 'web',

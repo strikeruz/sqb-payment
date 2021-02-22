@@ -1,4 +1,4 @@
-import { GET_SERVICE, SERVICE_ERROR } from '../../types/p2pTypes'
+import { GET_SERVICE, SERVICE_ERROR, SET_SERVICE } from './../../types/p2pTypes';
 import { joydaApiInstance } from '../../../utils/api/joydaApiAxios'
 
 export const getServices = (catId) => async dispatch => {
@@ -26,4 +26,11 @@ export const getServices = (catId) => async dispatch => {
             payload: error,
         })
     }
+}
+
+export const setService = (service) => dispatch => {
+    dispatch( {
+        type: SET_SERVICE,
+        payload: service
+    })
 }

@@ -1,8 +1,9 @@
   
-import { GET_SERVICE, SERVICE_ERROR } from '../../types/p2pTypes'
+import { GET_SERVICE, SERVICE_ERROR, SET_SERVICE } from '../../types/p2pTypes'
 
 const initialState = {
     services:[],
+    currentService: [],
     loading:true
 }
 
@@ -12,6 +13,12 @@ export default function(state = initialState, action){
         return {
             ...state,
             services:action.payload,
+            loading:false
+        }
+        case SET_SERVICE:
+        return {
+            ...state,
+            currentService: action.payload,
             loading:false
         }
         case SERVICE_ERROR:

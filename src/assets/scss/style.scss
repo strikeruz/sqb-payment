@@ -178,7 +178,7 @@ body {
   }
 
   &:hover img, &.current img {
-    // content: url("../img/transfers.png");
+     content: url("../images/transfers.png");
   }
 }
 
@@ -217,7 +217,7 @@ body {
 .inline-list--second {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -15px;
+  // margin: 0 -15px;
 }
 
 .inline-list--second__item {
@@ -256,7 +256,7 @@ body {
   &::-webkit-scrollbar-thumb {
     background: #003e64;
   }
- 
+
   background-color: #fff;
   border-radius: 10px;
   z-index: 21;
@@ -264,6 +264,10 @@ body {
   max-height: 700px;
   overflow-y: auto;
   width: 100%;
+
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .inline-list--second__item--popup-overlay {
@@ -372,6 +376,13 @@ body {
   &:hover {
     background: #f7494c;
   }
+
+}
+
+input[type="submit"]:disabled, button[type="submit"]:disabled {
+  cursor: not-allowed;
+  background: #aaa;
+  pointer-events: none;
 }
 
 .inline-list--second__item--popup-img {
@@ -445,7 +456,7 @@ body {
   align-items: stretch;
   width: 100%;
 
- 
+
 }
 
 .form-control.invalid, .virtualReception__select.invalid {
@@ -474,6 +485,7 @@ body {
     text-align: center;
     color: #1d3448;
     opacity: 0.5;
+    cursor: pointer;
   }
 }
 

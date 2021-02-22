@@ -1,4 +1,4 @@
-import { GET_CATEGORIES, CATEGOIRES_ERROR } from '../../types/p2pTypes'
+import { GET_CATEGORIES, CATEGOIRES_ERROR, SET_CURRENT_CATEGORY } from '../../types/p2pTypes'
 import { joydaApiInstance } from '../../../utils/api/joydaApiAxios'
 
 export const getCategories = () => async dispatch => {
@@ -22,4 +22,11 @@ export const getCategories = () => async dispatch => {
             payload: error,
         })
     }
+}
+
+export const setCategory = (category) => dispatch => {
+    dispatch( {
+        type: SET_CURRENT_CATEGORY,
+        payload: category
+    })
 }
