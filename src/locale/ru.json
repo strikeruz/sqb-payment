@@ -1,0 +1,16 @@
+{
+    "translations": {
+        "payment": {
+            "select": "Выберите",
+            "your_card_number": "Номер твоей карты",
+            "payment_amount": "Сумма платежа",
+            "continue": "ПРОДОЛЖИТЬ",
+            "check_for_payment": "Чек к оплате",
+            "resend_sms" : "Повторно выслать SMS",
+            "pay": "ОПЛАТИТЬ",
+            "back": "Назад",
+            "region": "Регион",
+            "success_pay_msg": "Оплата прошла успешно!"
+        }
+    }
+}

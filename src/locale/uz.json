@@ -1,0 +1,16 @@
+{
+    "translations": {
+        "payment": {
+            "select": "Tanlang",
+            "your_card_number": "Kartangiz nomeri",
+            "payment_amount": "To'lov summasi",
+            "continue": "Davom etish",
+            "check_for_payment": "To'lov uchun chek",
+            "resend_sms" : "SMSni qayta yuborish",
+            "pay": "To'lash",
+            "back": "Ortga",
+            "region": "Viloyat",
+            "success_pay_msg": "To‘lov amalga oshirildi!"
+        }
+    }
+}
