@@ -34,7 +34,7 @@ const FormNestedSelects = ({label, name, title, data, register, defaultValues, e
                     {data.map(fields => <option key={fields.display} value={fields.display}>{fields.display}</option>)}
                 </select>
             </div>
-            {   selectedVals && 
+            { selectedVals && 
                     <FormSelectItem
                         name={name}
                         label={title}

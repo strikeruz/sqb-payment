@@ -1,3 +1,3 @@
-export {default as FirstFormLists} from './FirstFormLists'
-export {default as SecondCheckUserInfo} from './SecondCheckUserInfo'
-export {default as ThirdSmsConfirmResult} from './ThirdSmsConfirmResult'
+export {default as PayForm} from './Step1/PayForm'
+export {default as UserCardInformations} from './Step2/UserCardInformations'
+export {default as ConfirmUserSms} from './Step3/ConfirmUserSms'

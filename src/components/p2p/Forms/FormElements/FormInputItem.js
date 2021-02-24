@@ -24,7 +24,7 @@ const FormInputItem = ({
 
 	const numberSchema = format === 'number' ? {validate: value => /[0-9]$/.test(value)} : {}
 	const schema = Object.assign(defaultSchema, customValidate, numberSchema);
-	console.log(minsum, maxsum)
+	
 	return (
 		<div className='inline-list--second__item--popup--item'>
 			<label>{label}</label>

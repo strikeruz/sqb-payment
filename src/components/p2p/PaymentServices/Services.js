@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { Route, useHistory, Switch, useRouteMatch, useParams, useLocation } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { getServices } from '../../../store/actions/p2p/servicesAction';
-import { FirstFormLists, SecondCheckUserInfo, ThirdSmsConfirmResult } from '../Forms/Steps';
+import { PayForm, UserCardInformations, ConfirmUserSms } from '../Forms/Steps';
 import ModalContainer from '../ModalContainer';
 import Service from './Service';
 import PrevButton from '../PrevButton';
@@ -62,7 +62,7 @@ const Services = () => {
 						return (
 							!loading && match &&
 							<ModalContainer onClose={closeModal}>
-								<FirstFormLists />
+								<PayForm />
 							</ModalContainer>
 						);
 					}}
@@ -74,7 +74,7 @@ const Services = () => {
 						return (
 							!loading && match &&
 							<ModalContainer onClose={closeModal}>
-								<SecondCheckUserInfo />
+								<UserCardInformations />
 							</ModalContainer>
 						);
 					}}
@@ -86,7 +86,7 @@ const Services = () => {
 						return (
 							!loading && match &&
 							<ModalContainer onClose={closeModal}>
-								<ThirdSmsConfirmResult />
+								<ConfirmUserSms />
 							</ModalContainer>
 						);
 					}}

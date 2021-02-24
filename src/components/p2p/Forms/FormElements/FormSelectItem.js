@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const FormSelectItem = ({
 	label,
@@ -10,6 +11,7 @@ const FormSelectItem = ({
 	errors,
 	...otherOptions
 }) => {
+	const { t } = useTranslation();
 	const selectClass = `virtualReception__select ${errors ? 'invalid' : ``}`;
 	return (
 		<div className='inline-list--second__item--popup--item'>
@@ -26,11 +28,11 @@ const FormSelectItem = ({
 					className={errors[name] ? `${className} invalid` : className}
 					{...otherOptions}
 					>
-					<option value=''>Выберите</option>
+					<option value=''>{ t('payment.select') }</option>
 					{selectarr &&
 						selectarr.map((select) => (
 							<option key={select.key} value={select.key}>
-								{select.value}
+								{select.value || select.val}
 							</option>
 						))}
 				</select>
