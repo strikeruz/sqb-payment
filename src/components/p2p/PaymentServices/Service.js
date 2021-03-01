@@ -19,6 +19,7 @@ const Service = (props) => {
 	return (
 		<div className='inline-list--second__item' onClick={nextStep}>
 			<img src={logo} alt={title} />
+			<p>{ title }</p>
 		</div>
 	);
 }

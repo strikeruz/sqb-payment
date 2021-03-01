@@ -1,7 +1,9 @@
-import { GET_SERVICE, SERVICE_ERROR, SET_SERVICE } from './../../types/p2pTypes';
+import { GET_SERVICE, SERVICE_ERROR, SET_SERVICE, LOADING } from './../../types/p2pTypes';
 import { joydaApiInstance } from '../../../utils/api/joydaApiAxios'
 
 export const getServices = (catId) => async dispatch => {
+    // Loading
+    dispatch( { type: LOADING })
     try{
         const params = {
             "category_id": catId,

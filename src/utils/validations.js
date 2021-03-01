@@ -7,7 +7,7 @@ export const isCorrectNumLength = (number) => {
     return cardNums.length === 16 && cardNums.split('').every(e => /\d/g.test(e))
 }
 
-export const isFirstNumValid = (number) => number.split(' ')[0] === '8600'
+export const isFirstNumValid = (number) => number.split(' ')[0] === '8600' || number.split(' ')[0] === '9860'
 
 export const isCardBankTypeNumValid = (number) => {
     const bankTypes = [

@@ -4,18 +4,14 @@ import Payment from './components/p2p/Payment';
 import { ToastContainer } from 'react-toastify';
 import './assets/scss/style.scss'
 import "!style-loader!css-loader!react-toastify/dist/ReactToastify.css"
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 
 export default function App() {
   return (
     <>
-      <Router>
+      <BrowserRouter>
         <Payment />
-      </Router>
+      </BrowserRouter>
       <ToastContainer
         position="top-right"
         autoClose={5000}
